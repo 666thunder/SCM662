@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_9LEAEHkaEeae2udJmImXxg" dataPackage="_9LEAEXkaEeae2udJmImXxg"/>
-  <TalendMetadata:GenericPackage xmi:id="_9LEAEXkaEeae2udJmImXxg" dataManager="_9LEAEHkaEeae2udJmImXxg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LEAEnkaEeae2udJmImXxg" id="_9LDZAHkaEeae2udJmImXxg" label="CISOutageAreaLanding">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LEAE3kaEeae2udJmImXxg" name="OutageId" label="OutageId" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9LEAFHkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_W2tDgnn6EearQPI1fQpnMg" dataPackage="_W2tDg3n6EearQPI1fQpnMg"/>
+  <TalendMetadata:GenericPackage xmi:id="_W2tDg3n6EearQPI1fQpnMg" dataManager="_W2tDgnn6EearQPI1fQpnMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W2tDhHn6EearQPI1fQpnMg" id="_W2tDgHn6EearQPI1fQpnMg" label="CISOutageAreaLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2tDhXn6EearQPI1fQpnMg" name="OutageId" label="OutageId" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2tDhnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LEAFXkaEeae2udJmImXxg" name="Sequence" label="Sequence" length="10" sourceType="INT" talendType="id_Integer">
-        <initialValue xmi:id="_9LEAFnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2tDh3n6EearQPI1fQpnMg" name="Sequence" label="Sequence" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2tDiHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LEAF3kaEeae2udJmImXxg" name="OutageAreaLatitude" label="OutageAreaLatitude" length="53" sourceType="FLOAT" talendType="id_Double">
-        <initialValue xmi:id="_9LEAGHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2tDiXn6EearQPI1fQpnMg" name="OutageAreaLatitude" label="OutageAreaLatitude" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2tDinn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LEAGXkaEeae2udJmImXxg" name="OutageAreaLongitude" label="OutageAreaLongitude" length="53" sourceType="FLOAT" talendType="id_Double">
-        <initialValue xmi:id="_9LEAGnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2tDi3n6EearQPI1fQpnMg" name="OutageAreaLongitude" label="OutageAreaLongitude" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2tDjHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LEAG3kaEeae2udJmImXxg" name="OutagePolygon" label="OutagePolygon" length="2147483647" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LEAHHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2tDjXn6EearQPI1fQpnMg" name="OutagePolygon" label="OutagePolygon" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2tDjnn6EearQPI1fQpnMg"/>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>

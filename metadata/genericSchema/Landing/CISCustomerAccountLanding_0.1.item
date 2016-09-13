@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_9K3LwnkaEeae2udJmImXxg" dataPackage="_9K3Lw3kaEeae2udJmImXxg"/>
-  <TalendMetadata:GenericPackage xmi:id="_9K3Lw3kaEeae2udJmImXxg" dataManager="_9K3LwnkaEeae2udJmImXxg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9K3LxHkaEeae2udJmImXxg" id="_9K3LwHkaEeae2udJmImXxg" label="CISCustomerAccountLanding">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K3LxXkaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K3LxnkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_W2hdUnn6EearQPI1fQpnMg" dataPackage="_W2hdU3n6EearQPI1fQpnMg"/>
+  <TalendMetadata:GenericPackage xmi:id="_W2hdU3n6EearQPI1fQpnMg" dataManager="_W2hdUnn6EearQPI1fQpnMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W2hdVHn6EearQPI1fQpnMg" id="_W2hdUHn6EearQPI1fQpnMg" label="CISCustomerAccountLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2hdVXn6EearQPI1fQpnMg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2hdVnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K3Lx3kaEeae2udJmImXxg" name="UtilityCustomerNumber" label="UtilityCustomerNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K3LyHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2hdV3n6EearQPI1fQpnMg" name="UtilityCustomerNumber" label="UtilityCustomerNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2hdWHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K3LyXkaEeae2udJmImXxg" name="Role" label="Role" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K3LynkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2hdWXn6EearQPI1fQpnMg" name="Role" label="Role" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2hdWnn6EearQPI1fQpnMg"/>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_9LQ0YHkaEeae2udJmImXxg" dataPackage="_9LQ0YXkaEeae2udJmImXxg"/>
-  <TalendMetadata:GenericPackage xmi:id="_9LQ0YXkaEeae2udJmImXxg" dataManager="_9LQ0YHkaEeae2udJmImXxg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LQ0YnkaEeae2udJmImXxg" id="_9LQNUHkaEeae2udJmImXxg" label="CISRateLanding">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0Y3kaEeae2udJmImXxg" name="RatePlan" label="RatePlan" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9LQ0ZHkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_W24psnn6EearQPI1fQpnMg" dataPackage="_W24ps3n6EearQPI1fQpnMg"/>
+  <TalendMetadata:GenericPackage xmi:id="_W24ps3n6EearQPI1fQpnMg" dataManager="_W24psnn6EearQPI1fQpnMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W24ptHn6EearQPI1fQpnMg" id="_W24psHn6EearQPI1fQpnMg" label="CISRateLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24ptXn6EearQPI1fQpnMg" name="RatePlan" label="RatePlan" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24ptnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0ZXkaEeae2udJmImXxg" name="RateType" label="RateType" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9LQ0ZnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pt3n6EearQPI1fQpnMg" name="RateType" label="RateType" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24puHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0Z3kaEeae2udJmImXxg" name="RateName" label="RateName" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LQ0aHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24puXn6EearQPI1fQpnMg" name="RateName" label="RateName" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24punn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0aXkaEeae2udJmImXxg" name="StartDate" label="StartDate" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_9LQ0ankaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pu3n6EearQPI1fQpnMg" name="StartDate" label="StartDate" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pvHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0a3kaEeae2udJmImXxg" name="EndDate" label="EndDate" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_9LQ0bHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pvXn6EearQPI1fQpnMg" name="EndDate" label="EndDate" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pvnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0bXkaEeae2udJmImXxg" name="StartTime" label="StartTime" length="16" sourceType="DATETIME" talendType="id_Date" pattern="&quot;HH:mm:ss&quot;">
-        <initialValue xmi:id="_9LQ0bnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pv3n6EearQPI1fQpnMg" name="StartTime" label="StartTime" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pwHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0b3kaEeae2udJmImXxg" name="EndTime" label="EndTime" length="16" sourceType="DATETIME" talendType="id_Date" pattern="&quot;HH:mm:ss&quot;">
-        <initialValue xmi:id="_9LQ0cHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pwXn6EearQPI1fQpnMg" name="EndTime" label="EndTime" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pwnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0cXkaEeae2udJmImXxg" name="TierFrom" label="TierFrom" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LQ0cnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pw3n6EearQPI1fQpnMg" name="TierFrom" label="TierFrom" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pxHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0c3kaEeae2udJmImXxg" name="TierTo" label="TierTo" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LQ0dHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pxXn6EearQPI1fQpnMg" name="TierTo" label="TierTo" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pxnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0dXkaEeae2udJmImXxg" name="TierName" label="TierName" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LQ0dnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24px3n6EearQPI1fQpnMg" name="TierName" label="TierName" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pyHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0d3kaEeae2udJmImXxg" name="UsageRate" label="UsageRate" length="10" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LQ0eHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pyXn6EearQPI1fQpnMg" name="UsageRate" label="UsageRate" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pynn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0eXkaEeae2udJmImXxg" name="DailyMinCharge" label="DailyMinCharge" length="10" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LQ0enkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24py3n6EearQPI1fQpnMg" name="DailyMinCharge" label="DailyMinCharge" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pzHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0e3kaEeae2udJmImXxg" name="DemandRate" label="DemandRate" length="10" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LQ0fHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pzXn6EearQPI1fQpnMg" name="DemandRate" label="DemandRate" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24pznn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LQ0fXkaEeae2udJmImXxg" name="RateStatus" label="RateStatus" length="1" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9LQ0fnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W24pz3n6EearQPI1fQpnMg" name="RateStatus" label="RateStatus" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W24p0Hn6EearQPI1fQpnMg"/>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>

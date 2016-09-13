@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_9LKGsnkaEeae2udJmImXxg" dataPackage="_9LKGs3kaEeae2udJmImXxg"/>
-  <TalendMetadata:GenericPackage xmi:id="_9LKGs3kaEeae2udJmImXxg" dataManager="_9LKGsnkaEeae2udJmImXxg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LKGtHkaEeae2udJmImXxg" id="_9LKGsHkaEeae2udJmImXxg" label="CISPaymentLanding">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGtXkaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9LKGtnkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_W2zKIHn6EearQPI1fQpnMg" dataPackage="_W2zKIXn6EearQPI1fQpnMg"/>
+  <TalendMetadata:GenericPackage xmi:id="_W2zKIXn6EearQPI1fQpnMg" dataManager="_W2zKIHn6EearQPI1fQpnMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W2zKInn6EearQPI1fQpnMg" id="_W2yjEHn6EearQPI1fQpnMg" label="CISPaymentLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKI3n6EearQPI1fQpnMg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKJHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGt3kaEeae2udJmImXxg" name="PaymentDate" label="PaymentDate" length="10" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_9LKGuHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKJXn6EearQPI1fQpnMg" name="PaymentDate" label="PaymentDate" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKJnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGuXkaEeae2udJmImXxg" name="PaymentId" label="PaymentId" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LKGunkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKJ3n6EearQPI1fQpnMg" name="PaymentId" label="PaymentId" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKKHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGu3kaEeae2udJmImXxg" name="PaymentType" label="PaymentType" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LKGvHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKKXn6EearQPI1fQpnMg" name="PaymentType" label="PaymentType" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKKnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGvXkaEeae2udJmImXxg" name="Amount" label="Amount" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9LKGvnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKK3n6EearQPI1fQpnMg" name="Amount" label="Amount" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKLHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LKGv3kaEeae2udJmImXxg" name="PaymentStatus" label="PaymentStatus" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9LKGwHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2zKLXn6EearQPI1fQpnMg" name="PaymentStatus" label="PaymentStatus" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2zKLnn6EearQPI1fQpnMg"/>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>

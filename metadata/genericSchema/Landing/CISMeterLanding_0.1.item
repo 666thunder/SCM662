@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_9K9SYnkaEeae2udJmImXxg" dataPackage="_9K9SY3kaEeae2udJmImXxg"/>
-  <TalendMetadata:GenericPackage xmi:id="_9K9SY3kaEeae2udJmImXxg" dataManager="_9K9SYnkaEeae2udJmImXxg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9K9SZHkaEeae2udJmImXxg" id="_9K9SYHkaEeae2udJmImXxg" label="CISMeterLanding">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9SZXkaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K9SZnkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_W2nj8nn6EearQPI1fQpnMg" dataPackage="_W2nj83n6EearQPI1fQpnMg"/>
+  <TalendMetadata:GenericPackage xmi:id="_W2nj83n6EearQPI1fQpnMg" dataManager="_W2nj8nn6EearQPI1fQpnMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W2nj9Hn6EearQPI1fQpnMg" id="_W2nj8Hn6EearQPI1fQpnMg" label="CISMeterLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj9Xn6EearQPI1fQpnMg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nj9nn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9SZ3kaEeae2udJmImXxg" name="MeterNumber" label="MeterNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K9SaHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj93n6EearQPI1fQpnMg" name="MeterNumber" label="MeterNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nj-Hn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9SaXkaEeae2udJmImXxg" name="MiuId" label="MiuId" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9K9SankaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj-Xn6EearQPI1fQpnMg" name="MiuId" label="MiuId" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nj-nn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9Sa3kaEeae2udJmImXxg" name="Service" label="Service" length="100" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9K9SbHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj-3n6EearQPI1fQpnMg" name="Service" label="Service" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nj_Hn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9SbXkaEeae2udJmImXxg" name="Segment" label="Segment" length="500" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_9K9SbnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj_Xn6EearQPI1fQpnMg" name="Segment" label="Segment" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nj_nn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9Sb3kaEeae2udJmImXxg" name="ReadInterval" label="ReadInterval" length="1" sourceType="BIT" talendType="id_Boolean">
-        <initialValue xmi:id="_9K9ScHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nj_3n6EearQPI1fQpnMg" name="ReadInterval" label="ReadInterval" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nkAHn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9ScXkaEeae2udJmImXxg" name="Allocation" label="Allocation" length="10" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_9K9ScnkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nkAXn6EearQPI1fQpnMg" name="Allocation" label="Allocation" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nkAnn6EearQPI1fQpnMg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K9Sc3kaEeae2udJmImXxg" name="RatePlan" label="RatePlan" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
-        <initialValue xmi:id="_9K9SdHkaEeae2udJmImXxg"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2nkA3n6EearQPI1fQpnMg" name="RatePlan" label="RatePlan" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_W2nkBHn6EearQPI1fQpnMg"/>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>
