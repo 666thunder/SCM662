@@ -98,6 +98,7 @@
       <relatedItems xmi:id="_m62bfXkcEeae2udJmImXxg" id="__LVZQHkbEeae2udJmImXxg - LakeCity_Bill" version="Latest" type="schema"/>
       <relatedItems xmi:id="_2xvkMHkzEeae2udJmImXxg" id="_9tmcsHkrEeae2udJmImXxg" version="Latest" type="context"/>
       <relatedItems xmi:id="_2xvkMXkzEeae2udJmImXxg" id="_OPEq8HksEeae2udJmImXxg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_q3NkcHn6EearQPI1fQpnMg" id="_JcCOIXn6EearQPI1fQpnMg - CISAccountLanding" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_tLEKYHkeEeae2udJmImXxg">
       <baseItem xmi:id="_tLEKYXkeEeae2udJmImXxg" id="_NJgSYHkeEeae2udJmImXxg" version="0.1" type="job"/>
@@ -115,6 +116,7 @@
       <relatedItems xmi:id="_tLEKbXkeEeae2udJmImXxg" id="__LVZQHkbEeae2udJmImXxg - LakeCity_Bill" version="Latest" type="schema"/>
       <relatedItems xmi:id="_tQzg0HkwEeae2udJmImXxg" id="_9tmcsHkrEeae2udJmImXxg" version="Latest" type="context"/>
       <relatedItems xmi:id="_tQzg0XkwEeae2udJmImXxg" id="_OPEq8HksEeae2udJmImXxg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_pfFT4Hn6EearQPI1fQpnMg" id="_W2kgoXn6EearQPI1fQpnMg - CISCustomerLanding" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_vUZigHkrEeae2udJmImXxg">
       <baseItem xmi:id="_vUZigXkrEeae2udJmImXxg" id="_cLc7sHkrEeae2udJmImXxg" version="0.1" type="job"/>
@@ -132,6 +134,7 @@
       <relatedItems xmi:id="_vUZijXkrEeae2udJmImXxg" id="__LVZQHkbEeae2udJmImXxg - LakeCity_Bill" version="Latest" type="schema"/>
       <relatedItems xmi:id="_4I96AHksEeae2udJmImXxg" id="_9tmcsHkrEeae2udJmImXxg" version="Latest" type="context"/>
       <relatedItems xmi:id="_4I-hEHksEeae2udJmImXxg" id="_OPEq8HksEeae2udJmImXxg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_qZefkHn6EearQPI1fQpnMg" id="_W2hdUXn6EearQPI1fQpnMg - CISCustomerAccountLanding" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_nyi_EHYUEeapKeDLhdUbtA" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_nyi_EXYUEeapKeDLhdUbtA" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
