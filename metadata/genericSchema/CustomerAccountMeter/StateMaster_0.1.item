@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBhhIHk9Eeae2udJmImXxg" dataPackage="_LBhhIXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBhhIXk9Eeae2udJmImXxg" dataManager="_LBhhIHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBhhInk9Eeae2udJmImXxg" id="_LBg6EHk9Eeae2udJmImXxg" label="StateMaster">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBhhI3k9Eeae2udJmImXxg" name="StateID" label="StateID" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+        <initialValue xmi:id="_LBhhJHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBhhJXk9Eeae2udJmImXxg" name="StateCode" label="StateCode" length="5" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBhhJnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBhhJ3k9Eeae2udJmImXxg" name="StateName" label="StateName" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBhhKHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBhhKXk9Eeae2udJmImXxg" name="CountryID" label="CountryID" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBhhKnk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

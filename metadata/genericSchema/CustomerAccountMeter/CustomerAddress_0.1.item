@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBaMYXk9Eeae2udJmImXxg" dataPackage="_LBaMYnk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBaMYnk9Eeae2udJmImXxg" dataManager="_LBaMYXk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBaMY3k9Eeae2udJmImXxg" id="_LBZlUHk9Eeae2udJmImXxg" label="CustomerAddress">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMZHk9Eeae2udJmImXxg" name="AddressId" label="AddressId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBaMZXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMZnk9Eeae2udJmImXxg" name="CustomerId" label="CustomerId" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBaMZ3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMaHk9Eeae2udJmImXxg" name="Address1" label="Address1" length="255" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBaMaXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMank9Eeae2udJmImXxg" name="Address2" label="Address2" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMa3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMbHk9Eeae2udJmImXxg" name="HomePhone" label="HomePhone" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMbXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMbnk9Eeae2udJmImXxg" name="CityId" label="CityId" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBaMb3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMcHk9Eeae2udJmImXxg" name="ZipCode" label="ZipCode" length="12" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBaMcXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMcnk9Eeae2udJmImXxg" name="DefaultFlag" label="DefaultFlag" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_LBaMc3k9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMdHk9Eeae2udJmImXxg" name="MeterNumber" label="MeterNumber" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMdXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMdnk9Eeae2udJmImXxg" name="EmailNotify" label="EmailNotify" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMd3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMeHk9Eeae2udJmImXxg" name="BudgetNotify" label="BudgetNotify" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMeXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMenk9Eeae2udJmImXxg" name="CreatedBy" label="CreatedBy" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMe3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMfHk9Eeae2udJmImXxg" name="CreatedDate" label="CreatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBaMfXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMfnk9Eeae2udJmImXxg" name="UpdatedBy" label="UpdatedBy" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMf3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMgHk9Eeae2udJmImXxg" name="UpdatedDate" label="UpdatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBaMgXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMgnk9Eeae2udJmImXxg" name="BillingAddress" label="BillingAddress" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_LBaMg3k9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMhHk9Eeae2udJmImXxg" name="ServiceAccount" label="ServiceAccount" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMhXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMhnk9Eeae2udJmImXxg" name="AreaDefined" label="AreaDefined" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMh3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMiHk9Eeae2udJmImXxg" name="Latitude" label="Latitude" length="53" sourceType="FLOAT" talendType="id_Double">
+        <initialValue xmi:id="_LBaMiXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMink9Eeae2udJmImXxg" name="Longitude" label="Longitude" length="53" sourceType="FLOAT" talendType="id_Double">
+        <initialValue xmi:id="_LBaMi3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMjHk9Eeae2udJmImXxg" name="hometype" label="hometype" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMjXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMjnk9Eeae2udJmImXxg" name="SolarPanels" label="SolarPanels" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMj3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMkHk9Eeae2udJmImXxg" name="NoOfResidents" label="NoOfResidents" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMkXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMknk9Eeae2udJmImXxg" name="HomeInfoStatus" label="HomeInfoStatus" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMk3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMlHk9Eeae2udJmImXxg" name="IsShowGallon" label="IsShowGallon" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMlXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMlnk9Eeae2udJmImXxg" name="IsShowHCF" label="IsShowHCF" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMl3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMmHk9Eeae2udJmImXxg" name="Floors" label="Floors" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMmXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMmnk9Eeae2udJmImXxg" name="YearBuilt" label="YearBuilt" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMm3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMnHk9Eeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMnXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMnnk9Eeae2udJmImXxg" name="BPNumber" label="BPNumber" length="256" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBaMn3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMoHk9Eeae2udJmImXxg" name="ElectricVehicle" label="ElectricVehicle" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMoXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMonk9Eeae2udJmImXxg" name="Pool" label="Pool" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBaMo3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMpHk9Eeae2udJmImXxg" name="NumberOfBathRooms" label="NumberOfBathRooms" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBaMpXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMpnk9Eeae2udJmImXxg" name="NumberOfHighEfficiencyAppliances" label="NumberOfHighEfficiencyAppliances" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBaMp3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMqHk9Eeae2udJmImXxg" name="LotSize" label="LotSize" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMqXk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMqnk9Eeae2udJmImXxg" name="LandscapeArea" label="LandscapeArea" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMq3k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBaMrHk9Eeae2udJmImXxg" name="SpecialLandscapeArea" label="SpecialLandscapeArea" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBaMrXk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9LUewHkaEeae2udJmImXxg" dataPackage="_9LUewXkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_9LUewXkaEeae2udJmImXxg" dataManager="_9LUewHkaEeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LUewnkaEeae2udJmImXxg" id="_9LT3sHkaEeae2udJmImXxg" label="CISUsageLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUew3kaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LUexHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUexXkaEeae2udJmImXxg" name="MeterNumber" label="MeterNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LUexnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUex3kaEeae2udJmImXxg" name="ReadDateTime" label="ReadDateTime" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9LUeyHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUeyXkaEeae2udJmImXxg" name="ReadType" label="ReadType" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LUeynkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUey3kaEeae2udJmImXxg" name="ReadQuantity" label="ReadQuantity" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9LUezHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUezXkaEeae2udJmImXxg" name="Units" label="Units" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LUeznkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LUez3kaEeae2udJmImXxg" name="BilledAmount" label="BilledAmount" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9LUe0HkaEeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9LHDYHkaEeae2udJmImXxg" dataPackage="_9LHDYXkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_9LHDYXkaEeae2udJmImXxg" dataManager="_9LHDYHkaEeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LHDYnkaEeae2udJmImXxg" id="_9LGcUHkaEeae2udJmImXxg" label="CISOutageLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDY3kaEeae2udJmImXxg" name="OutageId" label="OutageId" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDZHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDZXkaEeae2udJmImXxg" name="OutageDate" label="OutageDate" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDZnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDZ3kaEeae2udJmImXxg" name="OutageTitle" label="OutageTitle" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDaHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDaXkaEeae2udJmImXxg" name="OutageLatitude" label="OutageLatitude" length="53" sourceType="FLOAT" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_9LHDankaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDa3kaEeae2udJmImXxg" name="OutageLongitude" label="OutageLongitude" length="53" sourceType="FLOAT" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_9LHDbHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDbXkaEeae2udJmImXxg" name="PlannedFlag" label="PlannedFlag" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_9LHDbnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDb3kaEeae2udJmImXxg" name="DelFlag" label="DelFlag" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_9LHDcHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDcXkaEeae2udJmImXxg" name="ZipCode" label="ZipCode" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDcnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDc3kaEeae2udJmImXxg" name="ExpectedRestorationTime" label="ExpectedRestorationTime" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_9LHDdHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDdXkaEeae2udJmImXxg" name="OutageReportInfo" label="OutageReportInfo" length="200" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDdnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDd3kaEeae2udJmImXxg" name="OutageCause" label="OutageCause" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDeHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDeXkaEeae2udJmImXxg" name="ResolvedFlag" label="ResolvedFlag" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_9LHDenkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LHDe3kaEeae2udJmImXxg" name="Service" label="Service" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LHDfHkaEeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

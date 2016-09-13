@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBoO0Hk9Eeae2udJmImXxg" dataPackage="_LBoO0Xk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBoO0Xk9Eeae2udJmImXxg" dataManager="_LBoO0Hk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBoO0nk9Eeae2udJmImXxg" id="_LBnnwHk9Eeae2udJmImXxg" label="UtilityMaster">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO03k9Eeae2udJmImXxg" name="UtilityId" label="UtilityId" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+        <initialValue xmi:id="_LBoO1Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO1Xk9Eeae2udJmImXxg" name="Name" label="Name" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBoO1nk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO13k9Eeae2udJmImXxg" name="Website" label="Website" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBoO2Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO2Xk9Eeae2udJmImXxg" name="PrimaryPhone" label="PrimaryPhone" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBoO2nk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO23k9Eeae2udJmImXxg" name="SecondryPhone" label="SecondryPhone" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBoO3Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO3Xk9Eeae2udJmImXxg" name="UserCount" label="UserCount" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBoO3nk9Eeae2udJmImXxg" body="((0))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO33k9Eeae2udJmImXxg" name="AdminUserCount" label="AdminUserCount" length="3" sourceType="SMALLINT" talendType="id_Short" nullable="false">
+        <initialValue xmi:id="_LBoO4Hk9Eeae2udJmImXxg" body="((0))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO4Xk9Eeae2udJmImXxg" name="Status" label="Status" length="3" sourceType="SMALLINT" talendType="id_Short" nullable="false">
+        <initialValue xmi:id="_LBoO4nk9Eeae2udJmImXxg" body="((0))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO43k9Eeae2udJmImXxg" name="CreatedBy" label="CreatedBy" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBoO5Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO5Xk9Eeae2udJmImXxg" name="CreatedDate" label="CreatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBoO5nk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO53k9Eeae2udJmImXxg" name="UpdatedBy" label="UpdatedBy" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBoO6Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBoO6Xk9Eeae2udJmImXxg" name="LastUpdated" label="LastUpdated" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBoO6nk9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

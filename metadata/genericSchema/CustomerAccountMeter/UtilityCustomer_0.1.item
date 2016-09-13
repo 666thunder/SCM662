@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBkkcHk9Eeae2udJmImXxg" dataPackage="_LBkkcXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBkkcXk9Eeae2udJmImXxg" dataManager="_LBkkcHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBkkcnk9Eeae2udJmImXxg" id="_LBj9YHk9Eeae2udJmImXxg" label="UtilityCustomer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBkkc3k9Eeae2udJmImXxg" name="UtilityId" label="UtilityId" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+        <initialValue xmi:id="_LBkkdHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBkkdXk9Eeae2udJmImXxg" name="CustomerId" label="CustomerId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBkkdnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBkkd3k9Eeae2udJmImXxg" name="LastUpdated" label="LastUpdated" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBkkeHk9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBkkeXk9Eeae2udJmImXxg" name="UpdatedBy" label="UpdatedBy" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBkkenk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9LNxEHkaEeae2udJmImXxg" dataPackage="_9LNxEXkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_9LNxEXkaEeae2udJmImXxg" dataManager="_9LNxEHkaEeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LNxEnkaEeae2udJmImXxg" id="_9LNKAHkaEeae2udJmImXxg" label="CISPromotionLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxE3kaEeae2udJmImXxg" name="PromotionId" label="PromotionId" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LNxFHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxFXkaEeae2udJmImXxg" name="Title" label="Title" length="200" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LNxFnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxF3kaEeae2udJmImXxg" name="Description" label="Description" length="2147483647" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9LNxGHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxGXkaEeae2udJmImXxg" name="ImageURL" label="ImageURL" length="200" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9LNxGnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxG3kaEeae2udJmImXxg" name="SavingsAmount" label="SavingsAmount" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9LNxHHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxHXkaEeae2udJmImXxg" name="PromotionEnrollDate" label="PromotionEnrollDate" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9LNxHnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxH3kaEeae2udJmImXxg" name="PromotionStartDate" label="PromotionStartDate" length="10" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9LNxIHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxIXkaEeae2udJmImXxg" name="PromotionEndDate" label="PromotionEndDate" length="10" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9LNxInkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxI3kaEeae2udJmImXxg" name="PromotionDisclaimer" label="PromotionDisclaimer" length="1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9LNxJHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxJXkaEeae2udJmImXxg" name="TermCondition" label="TermCondition" length="1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9LNxJnkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxJ3kaEeae2udJmImXxg" name="Service" label="Service" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LNxKHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LNxKXkaEeae2udJmImXxg" name="PromotionCategory" label="PromotionCategory" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9LNxKnkaEeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

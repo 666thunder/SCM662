@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9KzhYnkaEeae2udJmImXxg" dataPackage="_9K0IcHkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_9K0IcHkaEeae2udJmImXxg" dataManager="_9KzhYnkaEeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9K0IcXkaEeae2udJmImXxg" id="_9KzhYHkaEeae2udJmImXxg" label="CISBillLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IcnkaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9K0Ic3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IdHkaEeae2udJmImXxg" name="BillingDate" label="BillingDate" length="10" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9K0IdXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IdnkaEeae2udJmImXxg" name="BillingID" label="BillingID" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9K0Id3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IeHkaEeae2udJmImXxg" name="BillDueDate" label="BillDueDate" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9K0IeXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IenkaEeae2udJmImXxg" name="PeriodFrom" label="PeriodFrom" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9K0Ie3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IfHkaEeae2udJmImXxg" name="PeriodTo" label="PeriodTo" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_9K0IfXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IfnkaEeae2udJmImXxg" name="PrevBill" label="PrevBill" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0If3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IgHkaEeae2udJmImXxg" name="PrevAmountDue" label="PrevAmountDue" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0IgXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IgnkaEeae2udJmImXxg" name="LastPayment" label="LastPayment" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0Ig3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IhHkaEeae2udJmImXxg" name="TotalBill" label="TotalBill" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0IhXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IhnkaEeae2udJmImXxg" name="LateFee" label="LateFee" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0Ih3kaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IiHkaEeae2udJmImXxg" name="Adjustments" label="Adjustments" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0IiXkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9K0IinkaEeae2udJmImXxg" name="TotalAmountDue" label="TotalAmountDue" length="10" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_9K0Ii3kaEeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

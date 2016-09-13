@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBd2wHk9Eeae2udJmImXxg" dataPackage="_LBd2wXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBd2wXk9Eeae2udJmImXxg" dataManager="_LBd2wHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBd2wnk9Eeae2udJmImXxg" id="_LBdPsHk9Eeae2udJmImXxg" label="CustomerCommunicationAddress">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2w3k9Eeae2udJmImXxg" name="CommunicationId" label="CommunicationId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBd2xHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2xXk9Eeae2udJmImXxg" name="AddressId" label="AddressId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBd2xnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2x3k9Eeae2udJmImXxg" name="Address1" label="Address1" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBd2yHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2yXk9Eeae2udJmImXxg" name="Address2" label="Address2" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBd2ynk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2y3k9Eeae2udJmImXxg" name="CityId" label="CityId" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBd2zHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2zXk9Eeae2udJmImXxg" name="ZipCode" label="ZipCode" length="12" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBd2znk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd2z3k9Eeae2udJmImXxg" name="StateId" label="StateId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBd20Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd20Xk9Eeae2udJmImXxg" name="CreatedDate" label="CreatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBd20nk9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd203k9Eeae2udJmImXxg" name="CustomerId" label="CustomerId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBd21Hk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBd21Xk9Eeae2udJmImXxg" name="IsPOBox" label="IsPOBox" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBd21nk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

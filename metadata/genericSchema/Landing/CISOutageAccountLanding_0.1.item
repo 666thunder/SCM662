@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9LA8wHkaEeae2udJmImXxg" dataPackage="_9LA8wXkaEeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_9LA8wXkaEeae2udJmImXxg" dataManager="_9LA8wHkaEeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LA8wnkaEeae2udJmImXxg" id="_9LAVsHkaEeae2udJmImXxg" label="CISOutageAccountLanding">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LA8w3kaEeae2udJmImXxg" name="OutageId" label="OutageId" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LA8xHkaEeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LA8xXkaEeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_9LA8xnkaEeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

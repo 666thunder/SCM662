@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBTesHk9Eeae2udJmImXxg" dataPackage="_LBTesXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBTesXk9Eeae2udJmImXxg" dataManager="_LBTesHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBTesnk9Eeae2udJmImXxg" id="_LBS3oHk9Eeae2udJmImXxg" label="CountryMaster">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBTes3k9Eeae2udJmImXxg" name="CountryID" label="CountryID" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+        <initialValue xmi:id="_LBTetHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBTetXk9Eeae2udJmImXxg" name="CountryName" label="CountryName" length="60" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBTetnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBTet3k9Eeae2udJmImXxg" name="IsDropDown" label="IsDropDown" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBTeuHk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBTeuXk9Eeae2udJmImXxg" name="CountryCode" label="CountryCode" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBTeunk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

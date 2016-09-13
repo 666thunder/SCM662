@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBWiAHk9Eeae2udJmImXxg" dataPackage="_LBWiAXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBWiAXk9Eeae2udJmImXxg" dataManager="_LBWiAHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBWiAnk9Eeae2udJmImXxg" id="_LBV68Hk9Eeae2udJmImXxg" label="Customer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiA3k9Eeae2udJmImXxg" name="CustomerId" label="CustomerId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBWiBHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiBXk9Eeae2udJmImXxg" name="UserName" label="UserName" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiBnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiB3k9Eeae2udJmImXxg" name="Password" label="Password" length="250" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiCHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiCXk9Eeae2udJmImXxg" name="FirstName" label="FirstName" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiCnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiC3k9Eeae2udJmImXxg" name="MiddleName" label="MiddleName" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiDHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiDXk9Eeae2udJmImXxg" name="LastName" label="LastName" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiDnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiD3k9Eeae2udJmImXxg" name="EmailID" label="EmailID" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBWiEHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiEXk9Eeae2udJmImXxg" name="BirthDate" label="BirthDate" length="10" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiEnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiE3k9Eeae2udJmImXxg" name="MobilePhone" label="MobilePhone" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiFHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiFXk9Eeae2udJmImXxg" name="IsPasswordRequest" label="IsPasswordRequest" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiFnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiF3k9Eeae2udJmImXxg" name="SecurityQuestionId" label="SecurityQuestionId" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBWiGHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiGXk9Eeae2udJmImXxg" name="HintsAns" label="HintsAns" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiGnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiG3k9Eeae2udJmImXxg" name="CreatedBy" label="CreatedBy" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiHHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiHXk9Eeae2udJmImXxg" name="CreatedDate" label="CreatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiHnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiH3k9Eeae2udJmImXxg" name="UpdatedBy" label="UpdatedBy" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiIHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiIXk9Eeae2udJmImXxg" name="UpdatedDate" label="UpdatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiInk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiI3k9Eeae2udJmImXxg" name="CustomerType" label="CustomerType" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBWiJHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiJXk9Eeae2udJmImXxg" name="Status" label="Status" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBWiJnk9Eeae2udJmImXxg" body="((0))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiJ3k9Eeae2udJmImXxg" name="Role" label="Role" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBWiKHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiKXk9Eeae2udJmImXxg" name="IsLocked" label="IsLocked" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiKnk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiK3k9Eeae2udJmImXxg" name="LoginAttempt" label="LoginAttempt" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBWiLHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiLXk9Eeae2udJmImXxg" name="LastLoginAttempt" label="LastLoginAttempt" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiLnk9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiL3k9Eeae2udJmImXxg" name="UtilityID" label="UtilityID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiMHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiMXk9Eeae2udJmImXxg" name="isResidential" label="isResidential" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiMnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiM3k9Eeae2udJmImXxg" name="DeviceId" label="DeviceId" length="200" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiNHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiNXk9Eeae2udJmImXxg" name="PushToken" label="PushToken" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiNnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiN3k9Eeae2udJmImXxg" name="IpadPushToken" label="IpadPushToken" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiOHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiOXk9Eeae2udJmImXxg" name="HomeInformationStatus" label="HomeInformationStatus" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiOnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiO3k9Eeae2udJmImXxg" name="SecurityQuestionId2" label="SecurityQuestionId2" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiPHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiPXk9Eeae2udJmImXxg" name="HintsAns2" label="HintsAns2" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiPnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiP3k9Eeae2udJmImXxg" name="UserFont" label="UserFont" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiQHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiQXk9Eeae2udJmImXxg" name="DashboardSwapOrder" label="DashboardSwapOrder" length="80" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiQnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiQ3k9Eeae2udJmImXxg" name="SSNNumber" label="SSNNumber" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiRHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiRXk9Eeae2udJmImXxg" name="CustomerVerificationID" label="CustomerVerificationID" length="36" sourceType="VARBINARY" talendType="id_Object">
+        <initialValue xmi:id="_LBWiRnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiR3k9Eeae2udJmImXxg" name="DashboardOption" label="DashboardOption" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiSHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiSXk9Eeae2udJmImXxg" name="IPAddress" label="IPAddress" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiSnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiS3k9Eeae2udJmImXxg" name="LoginToken" label="LoginToken" length="256" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiTHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiTXk9Eeae2udJmImXxg" name="LoginTokenDate" label="LoginTokenDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiTnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiT3k9Eeae2udJmImXxg" name="GraphMode" label="GraphMode" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiUHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiUXk9Eeae2udJmImXxg" name="KubraToken" label="KubraToken" length="500" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiUnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiU3k9Eeae2udJmImXxg" name="FullName" label="FullName" length="8000" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiVHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiVXk9Eeae2udJmImXxg" name="AlternateEmailID" label="AlternateEmailID" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiVnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiV3k9Eeae2udJmImXxg" name="customerNo" label="customerNo" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiWHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiWXk9Eeae2udJmImXxg" name="DeactivationDate" label="DeactivationDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiWnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiW3k9Eeae2udJmImXxg" name="DrivingLicence" label="DrivingLicence" length="25" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBWiXHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiXXk9Eeae2udJmImXxg" name="IsShowGallon" label="IsShowGallon" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiXnk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiX3k9Eeae2udJmImXxg" name="IsShowHCF" label="IsShowHCF" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiYHk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiYXk9Eeae2udJmImXxg" name="ReminderDate" label="ReminderDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBWiYnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiY3k9Eeae2udJmImXxg" name="IsPropertyManager" label="IsPropertyManager" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBWiZHk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBWiZXk9Eeae2udJmImXxg" name="TimeZoneId" label="TimeZoneId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBWiZnk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

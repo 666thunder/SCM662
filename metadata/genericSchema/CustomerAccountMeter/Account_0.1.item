@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBHRcnk9Eeae2udJmImXxg" dataPackage="_LBHRc3k9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBHRc3k9Eeae2udJmImXxg" dataManager="_LBHRcnk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBHRdHk9Eeae2udJmImXxg" id="_LBHRcHk9Eeae2udJmImXxg" label="Account">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRdXk9Eeae2udJmImXxg" name="AccountNumber" label="AccountNumber" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBHRdnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRd3k9Eeae2udJmImXxg" name="AddressId" label="AddressId" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBHReHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHReXk9Eeae2udJmImXxg" name="CustomerUtilityId" label="CustomerUtilityId" length="50" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBHRenk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRe3k9Eeae2udJmImXxg" name="AddressPowerPlanId" label="AddressPowerPlanId" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBHRfHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRfXk9Eeae2udJmImXxg" name="EVPowerPlanId" label="EVPowerPlanId" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBHRfnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRf3k9Eeae2udJmImXxg" name="DefaultUsageView" label="DefaultUsageView" length="3" sourceType="SMALLINT" talendType="id_Short" nullable="false">
+        <initialValue xmi:id="_LBHRgHk9Eeae2udJmImXxg" body="((0))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRgXk9Eeae2udJmImXxg" name="DefaultpaymentType" label="DefaultpaymentType" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBHRgnk9Eeae2udJmImXxg" body="((1))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRg3k9Eeae2udJmImXxg" name="WaterPlanId" label="WaterPlanId" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBHRhHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRhXk9Eeae2udJmImXxg" name="ServicePlanID" label="ServicePlanID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBHRhnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBHRh3k9Eeae2udJmImXxg" name="PVPowerPlanId" label="PVPowerPlanId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBH4gHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4gXk9Eeae2udJmImXxg" name="GasPlanId" label="GasPlanId" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LBH4gnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4g3k9Eeae2udJmImXxg" name="Paperless" label="Paperless" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4hHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4hXk9Eeae2udJmImXxg" name="RecurringPayStatus" label="RecurringPayStatus" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4hnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4h3k9Eeae2udJmImXxg" name="RecurringPayAmount" label="RecurringPayAmount" length="13" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_LBH4iHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4iXk9Eeae2udJmImXxg" name="IsTextMsg" label="IsTextMsg" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4ink9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4i3k9Eeae2udJmImXxg" name="PushNotification" label="PushNotification" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4jHk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4jXk9Eeae2udJmImXxg" name="UtilityAccountNumber" label="UtilityAccountNumber" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBH4jnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4j3k9Eeae2udJmImXxg" name="IsKubraEnrolled" label="IsKubraEnrolled" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4kHk9Eeae2udJmImXxg" body="'('0')'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4kXk9Eeae2udJmImXxg" name="BPNumber" label="BPNumber" length="256" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBH4knk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4k3k9Eeae2udJmImXxg" name="Status" label="Status" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBH4lHk9Eeae2udJmImXxg" body="((1))"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBH4lXk9Eeae2udJmImXxg" name="IsAverageBilling" label="IsAverageBilling" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBH4lnk9Eeae2udJmImXxg" body="'((0))'"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

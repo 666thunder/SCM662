@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBr5MHk9Eeae2udJmImXxg" dataPackage="_LBr5MXk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBr5MXk9Eeae2udJmImXxg" dataManager="_LBr5MHk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBr5Mnk9Eeae2udJmImXxg" id="_LBrSIHk9Eeae2udJmImXxg" label="ZipCodes">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5M3k9Eeae2udJmImXxg" name="RID" label="RID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBr5NHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5NXk9Eeae2udJmImXxg" name="ZipCode" label="ZipCode" length="12" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBr5Nnk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5N3k9Eeae2udJmImXxg" name="City" label="City" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBr5OHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5OXk9Eeae2udJmImXxg" name="State" label="State" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBr5Onk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5O3k9Eeae2udJmImXxg" name="Country" label="Country" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBr5PHk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBr5PXk9Eeae2udJmImXxg" name="IsDropDown" label="IsDropDown" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBr5Pnk9Eeae2udJmImXxg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LBK70Xk9Eeae2udJmImXxg" dataPackage="_LBK70nk9Eeae2udJmImXxg"/>
+  <TalendMetadata:GenericPackage xmi:id="_LBK70nk9Eeae2udJmImXxg" dataManager="_LBK70Xk9Eeae2udJmImXxg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LBK703k9Eeae2udJmImXxg" id="_LBKUwHk9Eeae2udJmImXxg" label="AccountMeterMapping">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK71Hk9Eeae2udJmImXxg" name="MeterId" label="MeterId" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_LBK71Xk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK71nk9Eeae2udJmImXxg" name="AccountNumber" label="AccountNumber" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_LBK713k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK72Hk9Eeae2udJmImXxg" name="MeterNumber" label="MeterNumber" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_LBK72Xk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK72nk9Eeae2udJmImXxg" name="MeterType" label="MeterType" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LBK723k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK73Hk9Eeae2udJmImXxg" name="IsAMI" label="IsAMI" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_LBK73Xk9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK73nk9Eeae2udJmImXxg" name="Status" label="Status" length="3" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_LBK733k9Eeae2udJmImXxg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK74Hk9Eeae2udJmImXxg" name="CreatedDate" label="CreatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBK74Xk9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LBK74nk9Eeae2udJmImXxg" name="LastUpdatedDate" label="LastUpdatedDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_LBK743k9Eeae2udJmImXxg" body="'(getdate())'"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
